@@ -1,0 +1,78 @@
+*** Settings ***
+Resource        ../../../../resource/resource_login.robot
+Resource        ../../../../resource/app/resource_frmContratos.robot
+Resource        ../../../../resource/app/resource_cnsContratos.robot
+Resource        ../../../../resource/app/resource_cnsLocaisPesquisa.robot
+Resource        ../../../../resource/resource_utils.robot
+
+Test Setup      Acessar Suricato
+Test Teardown   Fechar Navegador
+#Suite Teardown  Enviar Resultado  ${SUITE SOURCE}  ${OBJETIVO}  ${SUITE STATUS}
+
+*** Variables ***
+${SCREENNAME}  Consulta de Locais (Filtro)
+${APPNAME}     cnsLocaisPesquisa
+${OBJETIVO}    Verificar todos os campos na tela Consulta de Locais (Filtro)
+
+*** Test Cases ***
+Testcase: Acessar Tela Consulta de Locais (Filtro)
+  [Tags]  VERIFY    
+  [Documentation]   ${OBJETIVO}
+  
+  Dado que eu acesse o menu: Estrutura | Empresa Terceira | Contratos
+  Quando eu visualizar a tela: Consulta de Contratos
+  E clicar no botão: Editar o Registro "1"
+  Então devo visualizar a tela: Contratos (Inclusão)
+  E clicar no botão: Buscar Dados Externos para Local
+  Então o navegador deve exibir uma nova janela e eu visualizar a tela Consulta de Locais (Busca Externa)
+  E clicar no botão: Pesquisar
+  Então devo visualizar a tela: Local (Filtro)
+  E verificar a label Pesquisa
+  E verificar o campo Tabela de Organograma
+  E verificar o campo Descrição do Organograma
+  E verificar o campo Local
+  E verificar o campo Descrição do Local
+  E verificar se existe o campo Teste
+
+*** Keywords ***
+Dado que eu acesse o menu: Estrutura | Empresa Terceira | Contratos
+  resource_mnu.Clicar No Menu Estrutura | Empresa Terceira | Contratos
+
+Quando eu visualizar a tela: Consulta de Contratos
+  resource_cnsContratos.Acessar Tela Consulta de Contratos
+
+E clicar no botão: Editar o Registro "${NUM}"
+  resource_btn.Clicar No Botão Editar o Registro "${NUM}"
+
+Então devo visualizar a tela: Contratos (Inclusão)
+  resource_frmContratos.Acessar Tela Contratos (Inclusão)
+
+E clicar no botão: Buscar Dados Externos para Local
+  resource_frmContratos.Clicar No Botão Buscar Dados Externos Para Local
+
+Então o navegador deve exibir uma nova janela e eu visualizar a tela Consulta de Locais (Busca Externa)
+  resource_cnsLocaisPesquisa.Acessar Tela Consulta de Locais (Busca Externa)
+
+E clicar no botão: Pesquisar
+  resource_btn.Clicar No Botão Pesquisar Registros
+
+Então devo visualizar a tela: Local (Filtro)
+  resource_cnsLocaisPesquisa.Acessar Tela Local (Filtro)
+  
+E verificar a label Pesquisa
+  resource_cnsLocaisPesquisa.Verificar a label Pesquisa
+
+E verificar o campo Tabela de Organograma
+  resource_cnsLocaisPesquisa.Verificar o campo Tabela de Organograma
+
+E verificar o campo Descrição do Organograma
+  resource_cnsLocaisPesquisa.Verificar o campo Descrição do Organograma
+
+E verificar o campo Local
+  resource_cnsLocaisPesquisa.Verificar o campo Local
+
+E verificar o campo Descrição do Local
+  resource_cnsLocaisPesquisa.Verificar o campo Descrição do Local
+
+E verificar se existe o campo Teste
+  resource_utils.Verificar Campo Teste na Tela "${SCREENNAME}" da Aplicação "${APPNAME}"
