@@ -1,0 +1,105 @@
+*** Settings ***
+Library         SeleniumLibrary
+Resource        ../../resource/common/resource_mnu.robot
+Resource        ../../resource/common/resource_btn.robot
+Resource        ../../resource/resource_utils.robot
+
+*** Variables ***
+
+
+*** Keywords ***
+# MENU
+resource_mnu.Clicar No Menu Dispositivo | Gateway
+
+# SCREEN
+Acessar Tela Consulta do Gateway
+  ${OBJ}            Set Variable  SCN
+  IF  "${SERVER}" == "172.16.14.246" or "${SERVER}" == "172.16.14.247" or "${SERVER}" == "26.120.163.33" or "${SERVER}" == "26.233.65.244"
+    ${SCREENNAME}   Set Variable  Gateway
+  ELSE
+    ${SCREENNAME}  Set Variable  Consulta do Gateway
+  END
+  ${APPNAME}  Set Variable  cnsCentralGerenciamento
+  ${ELEMENT}  Set Variable    xpath=(//*[contains(text(),'${SCREENNAME}')])[2]
+
+  Mudar Frame Aplicação "mnu_iframe"
+  Wait Until Element is Visible  ${ELEMENT}
+  Element Text Should Be  ${ELEMENT}  ${SCREENNAME}
+
+  Run Keyword If  '${MODE}' == 'DOC'  Capturar Screenshot Da Aplicação Como "base__${APPNAME}__${SCREENNAME}__V1.png"
+
+
+Acessar Tela Consulta do Gateway (Busca Externa)
+  ${OBJ}         Set Variable  SCN
+  ${SCREENNAME}  Set Variable  Consulta do Gateway
+  ${APPNAME}  Set Variable  cnsCentralGerenciamento
+  ${ELEMENT}  Set Variable    xpath=(//*[contains(text(),'${SCREENNAME}')])[2]
+
+  
+  Wait Until Element is Visible  ${ELEMENT}
+  Element Text Should Be  ${ELEMENT}  ${SCREENNAME}
+
+  Run Keyword If  '${MODE}' == 'DOC'  Capturar Screenshot Da Aplicação Como "base__${APPNAME}__${SCREENNAME}__V2.png"
+
+
+
+Acessar Tela Consulta do Gateway (Filtro)
+  ${OBJ}         Set Variable  SCN
+  ${SCREENNAME}  Set Variable  Gateway
+  ${APPNAME}     Set Variable  cnsCentralGerenciamento
+  ${ELEMENT}     Set Variable  xpath=(//td[@class='scFilterHeaderFont'])[4]
+  Sleep  2s
+  Mudar Frame Aplicação "TB_iframeContent"
+  Wait Until Element is Visible  ${ELEMENT}
+  Element Text Should Be  ${ELEMENT}  ${SCREENNAME}
+
+  Run Keyword If  '${MODE}' == 'DOC'  Capturar Screenshot Da Aplicação Como "base__${APPNAME}__${SCREENNAME}__V1.png"
+
+
+#BUTTON
+#resource_btn.
+
+#FIELD
+Preencher o campo Código do Gateway "${COD}"
+  Input Text  xpath=//*[@name="codigereaces"][@type="text"]   ${COD}
+
+Preencher o campo Descrição "${DESC}"
+  Input Text  xpath=//*[@name="desccent"][@type="text"]   ${DESC}
+
+
+#VERIFY LABELS
+
+Verificar a label Código
+	${LABEL}   Set Variable  xpath=//div[contains(text(),'Código')]
+	Element Should Contain  ${LABEL}   Código
+
+Verificar a label Descrição
+	${LABEL}   Set Variable  xpath=//div[contains(text(),'Descrição')]
+	Element Should Contain  ${LABEL}   Descrição
+
+Verificar a label Diretório
+	${LABEL}   Set Variable  xpath=//div[contains(text(),'Diretório')]
+	Element Should Contain  ${LABEL}   Diretório
+
+
+#VERIFY CAMPOS
+
+Verificar a label Filtrar
+	${LABEL}   Set Variable  xpath=//td[contains(text(),'Filtrar')]
+
+	Element Should Contain  ${LABEL}   Filtrar
+
+
+Verificar o campo Código
+	${LABEL}      Set Variable  xpath=//td[contains(text(),'Código')]
+	${CAMPO}      Set Variable  xpath=//input[@name='codigereaces']
+
+	Element Should Contain             ${LABEL}   Código
+ 	Element Attribute Value Should Be  ${CAMPO}   name   codigereaces
+
+Verificar o campo Descrição	
+	${LABEL}      Set Variable  xpath=//td[contains(text(),'Descrição')]
+	${CAMPO}      Set Variable  xpath=//input[@name='desccent']
+
+	Element Should Contain             ${LABEL}   Descrição	
+ 	Element Attribute Value Should Be  ${CAMPO}   name   desccent
