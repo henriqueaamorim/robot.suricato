@@ -1,0 +1,49 @@
+*** Settings ***
+Resource        ../../../../resource/resource_login.robot
+Resource        ../../../../resource/app/resource_frmagendusofrota.robot
+Resource        ../../../../resource/app/resource_cnsagendausofrotapass.robot
+Resource        ../../../../resource/app/resource_abaAgendamentoFrota.robot
+
+Test Setup      Acessar Suricato
+Test Teardown   Fechar Navegador
+#Suite Teardown  Enviar Resultado  ${SUITE SOURCE}  ${OBJETIVO}  ${SUITE STATUS}
+
+*** Variables ***
+
+${OBJETIVO}   Preencher todos os campos da tela Agendamento do Uso da Frota - Passageiros
+
+*** Test Cases ***
+
+Testcase: Preencher todos os campos da tela Agendamento do Uso da Frota - Passageiros
+  [Tags]  REGISTER  POLYVALENT 
+  [Documentation]   ${OBJETIVO}
+  
+  Dado que eu acesse o menu: Veículos | Frota | Utilização Veículos | Agendamentos de Veículo - Frota
+  Quando eu visualizar a tela: Agendamento do Uso da Frota (Atualização)
+  E clicar na aba: Passageiros
+  Então devo visualizar a tela: Agendamento do Uso da Frota - Passageiros
+  E selecionar uma opção no campo Tipo do Passageiro "Visitante"
+  E preencher o campo Código do Colaborador "ok"
+  E preencher o campo Centro de Custo "ok"
+
+*** Keywords ***
+Dado que eu acesse o menu: Veículos | Frota | Utilização Veículos | Agendamentos de Veículo - Frota
+  resource_mnu.Clicar No Menu Veículos | Frota | Utilização Veículos | Agendamentos de Veículo - Frota
+
+Quando eu visualizar a tela: Agendamento do Uso da Frota (Atualização)
+  resource_frmagendusofrota.Acessar Tela Agendamento do Uso da Frota (Atualização)
+
+E clicar na aba: Passageiros
+  resource_abaAgendamentoFrota.Clicar Na Aba Passageiros
+
+Então devo visualizar a tela: Agendamento do Uso da Frota - Passageiros
+  resource_cnsagendausofrotapass.Acessar Tela Agendamento do Uso da Frota - Passageiros
+
+E selecionar uma opção no campo Tipo do Passageiro "${TIPO_DO_PASSAGEIRO}"
+  resource_cnsagendausofrotapass.Selecionar uma opção no campo Tipo do Passageiro "${TIPO_DO_PASSAGEIRO}"
+
+E preencher o campo Código do Colaborador "${CÓDIGO_DO_COLABORADOR}"
+  resource_cnsagendausofrotapass.Preencher o campo Código do Colaborador "${CÓDIGO_DO_COLABORADOR}"
+
+E preencher o campo Centro de Custo "${CENTRO_DE_CUSTO}"
+  resource_cnsagendausofrotapass.Preencher o campo Centro de Custo "${CENTRO_DE_CUSTO}"
