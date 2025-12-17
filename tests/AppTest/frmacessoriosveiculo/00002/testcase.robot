@@ -1,0 +1,47 @@
+*** Settings ***
+Resource        ../../../../resource/resource_login.robot
+Resource        ../../../../resource/app/resource_frmveiculocompleto_cad.robot
+Resource        ../../../../resource/app/resource_frmacessoriosveiculo.robot
+Resource        ../../../../resource/app/resource_abacadastroveiculo.robot
+
+Test Setup      Acessar Suricato
+Test Teardown   Fechar Navegador
+#Suite Teardown  Enviar Resultado  ${SUITE SOURCE}  ${OBJETIVO}  ${SUITE STATUS}
+
+*** Variables ***
+
+${OBJETIVO}   Acessar a tela Acessórios (Atualização).
+
+
+*** Test Cases ***
+
+Testcase: Acessar a tela Acessórios (Inclusão)
+  [Tags]  PRINT  POPULATED
+  [Documentation]   ${OBJETIVO}
+  
+  Dado que eu acesse o menu: Veículos | Cadastro | Veículo
+  Quando eu visualizar a tela: Cadastro Veículos - Atualização
+  E clicar na aba: Acessórios
+  Então devo visualizar a tela: Acessórios (Atualização)
+  E clicar no botão: Abrir um novo Registro
+  Então devo visualizar a tela: Acessórios (Inclusão)
+
+
+*** Keywords ***
+Dado que eu acesse o menu: Veículos | Cadastro | Veículo
+  resource_mnu.Clicar No Menu Veículos | Cadastro | Veículo
+
+Quando eu visualizar a tela: Cadastro Veículos - Atualização
+  resource_frmveiculocompleto_cad.Acessar Tela Cadastro Veículos - Atualização
+
+E clicar na aba: Acessórios
+  resource_abacadastroveiculo.Clicar Na Aba Acessórios
+
+Então devo visualizar a tela: Acessórios (Inclusão)
+  resource_frmacessoriosveiculo.Acessar Tela Acessórios (Inclusão)
+
+E clicar no botão: Abrir um novo Registro
+  resource_btn.Clicar No Botão Abrir Um Novo Registro
+
+Então devo visualizar a tela: Acessórios (Atualização)
+  resource_frmacessoriosveiculo.Acessar Tela Acessórios (Atualização)
