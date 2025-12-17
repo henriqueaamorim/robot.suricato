@@ -1,0 +1,10 @@
+{
+  "AUDIT": {
+    "HOSTNAME": "",
+    "USERNAME": "",
+    "PASSWORD": "",
+    "DATABASE": "devops",
+    "ENDPOINT": "http://hostname/RB/audit/inc.audit.php",
+    "TYPE": "MYSQL"
+  }
+}

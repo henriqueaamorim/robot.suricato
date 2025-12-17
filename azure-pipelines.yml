@@ -1,0 +1,43 @@
+trigger:
+- main
+
+resources:
+  repositories:
+    - repository: Suricato3
+      type: git
+      name: Suricato3
+      ref: 4-Homologando
+    - repository: RobotFramework
+      type: git
+      name: RobotFramework
+      ref: main
+jobs:
+- job: CheckoutRepos
+  pool:
+    name: 'RobotFramework'
+  steps:
+  - checkout: Suricato3
+  - checkout: RobotFramework
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: |
+        $Aplic = @()
+        $Aplic = Get-ChildItem -Path $(System.DefaultWorkingDirectory)\Suricato3\suricato\app | Sort-object -Property lastWriteTime -Descending | Where{($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | select BaseName | ForEach{($_.BaseName.Split('}')[0])}
+        If ($Aplic.Count -eq 0)
+        {
+        Write-Host "Não há aplicação nova para teste"
+        }
+        Else
+        {
+        foreach($final in $Aplic)
+        {
+        cd $(System.DefaultWorkingDirectory)\RobotFramework
+        python main.py robot --output result.json --variable TAG:246 --variable SERVER:172.16.14.246 --variable MODE:TST --variable BROWSER:CHROME .\tests\AppTest\cnsEmpresascad\00001-246-249
+        }
+        }
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '$(System.DefaultWorkingDirectory)\RobotFramework\result.json'
+      testRunTitle: 'Teste Json'

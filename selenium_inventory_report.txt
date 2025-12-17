@@ -1,0 +1,4266 @@
+SeleniumLibrary inventory report
+===============================
+{
+  "total_robot_files_scanned": 3456,
+  "files_with_seleniumlibrary": 694,
+  "files_reported": 702,
+  "aggregate_keyword_counts": {
+    "Open Browser": 1,
+    "Close Browser": 1,
+    "Click Element": 1920,
+    "Input Text": 2094,
+    "Input Password": 1,
+    "Wait Until Element is Visible": 2355,
+    "Switch Window": 97,
+    "Element Should Be Visible": 12,
+    "Execute JavaScript": 8,
+    "Execute Javascript": 8,
+    "Select From List By Value": 1
+  }
+}
+
+Files:
+- ./resource/common/resource_mnu.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1989
+    Click Element: 1131
+    Wait Until Element is Visible: 858
+
+- ./resource/common/resource_btn.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 224
+    Click Element: 110
+    Input Text: 1
+    Wait Until Element is Visible: 111
+    Element Should Be Visible: 2
+
+- ./resource/app/resource_blanksettings.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 70
+    Click Element: 16
+    Input Text: 45
+    Wait Until Element is Visible: 1
+    Execute JavaScript: 4
+    Execute Javascript: 4
+
+- ./resource/app/resource_frmcadastroimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 57
+    Click Element: 13
+    Input Text: 26
+    Wait Until Element is Visible: 18
+
+- ./resource/app/resource_frmcolaboradoresacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 54
+    Click Element: 27
+    Input Text: 22
+    Wait Until Element is Visible: 4
+    Switch Window: 1
+
+- ./resource/app/resource_frmveiculocompleto_cad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 54
+    Click Element: 19
+    Input Text: 15
+    Wait Until Element is Visible: 20
+
+- ./resource/app/resource_frmvisitantecorp.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 46
+    Click Element: 10
+    Input Text: 19
+    Wait Until Element is Visible: 16
+    Switch Window: 1
+
+- ./resource/app/resource_frmFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 42
+    Click Element: 13
+    Input Text: 14
+    Wait Until Element is Visible: 15
+
+- ./resource/app/resource_frmagendavisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 42
+    Click Element: 10
+    Input Text: 26
+    Wait Until Element is Visible: 6
+
+- ./resource/app/resource_frmoutrasempresas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 42
+    Click Element: 12
+    Input Text: 16
+    Wait Until Element is Visible: 14
+
+- ./resource/app/resource_frmcolaboradorcomplementar.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 41
+    Click Element: 13
+    Input Text: 13
+    Wait Until Element is Visible: 14
+    Select From List By Value: 1
+
+- ./resource/app/resource_frmpessoasnaograta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 34
+    Click Element: 10
+    Input Text: 11
+    Wait Until Element is Visible: 10
+    Execute JavaScript: 1
+    Execute Javascript: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrConfiguracoesSuri.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 33
+    Click Element: 2
+    Input Text: 29
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 30
+    Click Element: 8
+    Input Text: 13
+    Wait Until Element is Visible: 6
+    Switch Window: 3
+
+- ./resource/app/resource_frmagendagrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 26
+    Click Element: 4
+    Input Text: 20
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmcolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 26
+    Click Element: 6
+    Input Text: 13
+    Wait Until Element is Visible: 6
+    Switch Window: 1
+
+- ./resource/app/resource_frmEmpresas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 23
+    Click Element: 9
+    Input Text: 6
+    Wait Until Element is Visible: 8
+
+- ./resource/app/resource_ctrDefinicoesAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 22
+    Click Element: 10
+    Input Text: 11
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrentradagrupo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 22
+    Click Element: 8
+    Input Text: 6
+    Wait Until Element is Visible: 4
+    Switch Window: 4
+
+- ./resource/app/resource_frmagendusofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 22
+    Click Element: 6
+    Input Text: 10
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_frmautorizacaoacessoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 22
+    Click Element: 6
+    Input Text: 8
+    Wait Until Element is Visible: 5
+    Switch Window: 3
+
+- ./resource/app/resource_ctrentradavisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 21
+    Click Element: 9
+    Input Text: 8
+    Wait Until Element is Visible: 2
+    Element Should Be Visible: 2
+
+- ./resource/app/resource_frmmodeloveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 21
+    Click Element: 7
+    Input Text: 5
+    Wait Until Element is Visible: 9
+
+- ./resource/app/resource_ctrConfiguracoesEntradaVisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 19
+    Click Element: 14
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_rep_coleta_afd.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 19
+    Click Element: 12
+    Input Text: 4
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_frmHistoricoAfastamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 19
+    Click Element: 4
+    Input Text: 9
+    Wait Until Element is Visible: 5
+    Switch Window: 1
+
+- ./resource/app/resource_frminfracoesfrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 19
+    Click Element: 1
+    Input Text: 16
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmReacoesAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 18
+    Click Element: 8
+    Input Text: 4
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_frmveiculocolaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 18
+    Click Element: 5
+    Input Text: 7
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_consReprocessaMarcacaoOrfa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Input Text: 16
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrConfiguracoesGerais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Input Text: 15
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrconsacessocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Input Text: 15
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrsaidafrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Click Element: 3
+    Input Text: 13
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_fichaSaidaVisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Input Text: 14
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_frmreclamacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 17
+    Click Element: 4
+    Input Text: 7
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_cnsCrachaColaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 14
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoPerfil.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 14
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMatrizAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 14
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsPontes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 14
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cns_hstCrachaFisico.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 14
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consReprocessamentoMarcacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 15
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrconfigsenha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 4
+    Input Text: 11
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmCadastroEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 3
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmContratos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 3
+    Input Text: 9
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmDefinicoesPessoasNaoGratas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 7
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 2
+
+- ./resource/app/resource_frmHistoricoFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 4
+    Input Text: 6
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_frmProcessoAutomatico.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Input Text: 8
+    Wait Until Element is Visible: 8
+
+- ./resource/app/resource_frmTrocaPermissao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 3
+    Input Text: 9
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmsinistros.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 16
+    Click Element: 2
+    Input Text: 12
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAgendVeicu.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Input Text: 13
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAgendamentosVeiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Input Text: 13
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoAfastamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Click Element: 2
+    Input Text: 9
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_cnscolab.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Click Element: 2
+    Input Text: 12
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consagendamentovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Input Text: 11
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_conscrachaentregueprov.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Input Text: 13
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelmovimentocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Input Text: 13
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmcrachaempregado.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Click Element: 3
+    Input Text: 6
+    Wait Until Element is Visible: 5
+    Switch Window: 1
+
+- ./resource/app/resource_frmseguroveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 15
+    Click Element: 3
+    Input Text: 8
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_cnsAutorizarAcessoColaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Input Text: 12
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLogSuri.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Input Text: 13
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsTrocaPermissao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Input Text: 12
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscolaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Input Text: 7
+    Wait Until Element is Visible: 6
+    Element Should Be Visible: 1
+
+- ./resource/app/resource_consmensagemacessocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Click Element: 1
+    Input Text: 9
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_frmHistoricoContratos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 14
+    Click Element: 4
+    Input Text: 4
+    Wait Until Element is Visible: 4
+    Switch Window: 2
+
+- ./resource/app/resource_cnsAcessosDosColaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAlarmesTratados.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAprovacaoAgendamentoFrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAutorizacaoSaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 8
+    Wait Until Element is Visible: 5
+
+- ./resource/app/resource_consretornoagendavisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consultimasvisitas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrConfiguracoesTOTVS.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Click Element: 1
+    Input Text: 10
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmCentralGerenciamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Input Text: 11
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmagendamentoautorizacaoentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Click Element: 1
+    Input Text: 8
+    Wait Until Element is Visible: 2
+    Execute JavaScript: 1
+    Execute Javascript: 1
+
+- ./resource/app/resource_frmcrachaprovisoriocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 13
+    Click Element: 3
+    Input Text: 6
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_cnsConsumoRestaurante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 2
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsProcessoRelatorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 10
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cns_log_grid.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 8
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_cnsagendamentoimprensaaut.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 11
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnshistoricolocalveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 9
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_consMarcacaoMobile.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 10
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consretornoagendagrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 9
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_ctrComandos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 11
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrGeracaoListas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 11
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmCamposCustomizaveis.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 2
+    Input Text: 6
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmCrachasMestre.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 2
+    Input Text: 6
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmHistoricoEPIColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 3
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmHistoricoLocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 4
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmPlantas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 4
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmReport.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Input Text: 10
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmconfiguraremail.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 4
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmentradaservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 4
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmhistoricosituacaveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 12
+    Click Element: 2
+    Input Text: 6
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_cnsCreditosAcessoColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 1
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsCreditosAcessoVisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 1
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsHistoricoCargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoEscala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscargadescargaentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 2
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnshistoricosituacaveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsreclamacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consMatrizAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consTotalHorasTrabalhadas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Input Text: 9
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consmensagemacessovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 1
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctrMarcacaoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 5
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrPermissaoColetiva.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 5
+    Input Text: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctrdefinicoescrachaprecadastro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 10
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrselecaocreditoscoletivos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 3
+    Switch Window: 3
+
+- ./resource/app/resource_ctrselecaosaldobeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 2
+
+- ./resource/app/resource_frmHistoricoResponsaveis.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 3
+    Input Text: 5
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_frmTiposVisitas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 5
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmcargadescargaentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 3
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmgrupousuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 6
+    Input Text: 1
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_frmhistoricocrachaveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 3
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmveiculofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 11
+    Click Element: 2
+    Input Text: 5
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_abaprogramacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 5
+    Wait Until Element is Visible: 5
+
+- ./resource/app/resource_cnsAutorizacaoAcessoImprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsHistoricoContratos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoEPIColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoLocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsProcessoAutomatico.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 2
+    Wait Until Element is Visible: 8
+
+- ./resource/app/resource_cnscargadescargasaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 7
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnstrocaescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnstrocahorario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsveiculofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consRelatorioAlarmesTransito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 8
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEmpresasOrganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 3
+    Input Text: 4
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_frmTipoRefeicao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 1
+    Input Text: 8
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcadastroocorrencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmcomplementar.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Input Text: 9
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmescalahorarios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 5
+    Input Text: 1
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmmensagemvisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 3
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmmultas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 1
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmusuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Click Element: 1
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/resource_login.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 10
+    Open Browser: 1
+    Close Browser: 1
+    Click Element: 3
+    Input Text: 1
+    Input Password: 1
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsBaixaCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsColetorescad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsHistoricoCentroCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLiberacaoNivel.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsagendamentoautentradaservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 6
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_cnsagendamentoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsbeneficiosretirada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscolabCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 6
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnshistoricocrachaveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsimprensaautorizada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsinfracoesfrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_Consumo_Restaurante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consacessocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 1
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conssaidavisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmAmbiente.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 3
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmMatrizAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 4
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmMovimentacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_frmReacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmRefeitorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 5
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_frmcargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 5
+
+- ./resource/app/resource_frmprecadastrocracha69cra.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Click Element: 3
+    Input Text: 2
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_frmprocessorelatorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmservicftv.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 9
+    Input Text: 7
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaCFTV.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 4
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_abahorarios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 4
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_cnsBloqueioCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsContratos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 5
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsDesbloquearCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsRelatorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 1
+    Wait Until Element is Visible: 5
+
+- ./resource/app/resource_cnsagendamentoautorizacaoentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsdevedoresbeneficiopesq.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsentradaservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnshistoricobeneficio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 7
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnssinistros.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consbloqueiocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 6
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrMateriaisPessoa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 3
+    Input Text: 2
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_ctrPreImpExpFoto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 4
+    Input Text: 1
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctr_Control_Config_LDAP.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 7
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrdefinicoesfrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 6
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrliberafxhoraextra.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 7
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmAutorizarAcessoColaboradores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmCadastroElevadores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 3
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEntradasColetor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 3
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmHistoricoCargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmHistoricoEscala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 3
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmHistoricoPerfil.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frm_tbLocal_Acess.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Input Text: 7
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcondutoresveiculosfrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmdevedoresbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 3
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmentradagrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmgrupovisitantecorp.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmhistoricolocalveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmliberafaixahoraria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_frmmensagemcolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmretornofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 1
+    Input Text: 6
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmtrocaescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmveiculocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 8
+    Click Element: 2
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_blankorganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 4
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsContratosCap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsLocaisPesquisa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsPlantas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 4
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsservicftv.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consHistoricoExternalKeyFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscolaboradoracesso_ccusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscrachaentregueempre.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consferiado.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrLoteCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 3
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrLoteCrachaPdf.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 4
+    Input Text: 1
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrcreditoscoletivos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrgravahistorico.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Wait Until Element is Visible: 5
+    Switch Window: 1
+
+- ./resource/app/resource_ctrmensagemcoletiva.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 6
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrprogramacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_ctrselecaoservidoresxbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmBloqueioCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Input Text: 5
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmGrupoEmailEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmGrupoREP.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 2
+    Input Text: 5
+
+- ./resource/app/resource_frmGrupoRelatorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 4
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmHistoricoCentroCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmItensSecaoLayout.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmLGPD.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 4
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmPortarias.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmSecaoLayout.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_frmSinaisAlarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 3
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmTipoOcorrencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frm_tbcodinLocalAcess.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 3
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmfaixahoraria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmgrupovisitanteentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 1
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmtrocahorario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 7
+    Click Element: 3
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaVeiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_abacadastroveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_abaconsultaacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_abadefinicoescracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_abaempresa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_abagrupocoletor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsCentrodeCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsCrachasMestre.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTiposTerceiros.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cns_crachaMestreDetalhe.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscadastroimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscolabentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 3
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_consReprocessamentoPlayerBiometria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consestruturaorganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrConfiguracoesEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 4
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrdistribuicaobeneficiocoletiva.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 5
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrselecaodevedoresbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_frmCadastroAndares.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmDesbloquearCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmEPITermoCompromisso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEstacionamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmGrupoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmHistoricoExternalKeyFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmMateriaisAutorizados.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmMateriaisSolicitados.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmModeloColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_frmPontes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmSenhasAcessoColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmSituacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmTipoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmacessoriosveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/app/resource_frmagendamentoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmcamercftv.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmdesbloqueiocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmestruturaorganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 1
+    Wait Until Element is Visible: 2
+    Element Should Be Visible: 3
+
+- ./resource/app/resource_frmfaixaacessoservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Input Text: 4
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmferiadoxdatas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmocorrenciasinfracoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 3
+    Switch Window: 1
+
+- ./resource/resource_utils.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 6
+    Wait Until Element is Visible: 1
+    Switch Window: 2
+    Element Should Be Visible: 3
+
+- ./resource/app/resource_cnsCentralGerenciamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsColabPorEmpresa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsConsultaPresencaColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEmpresas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEmpresascad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEstruturaCargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 2
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_cnsFilialFRMcad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsGrupoHoraExtra.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGrupoNotifica.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLocais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsReacoesAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTipoAlarmesTransito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTipoRefei.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsmultas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsresponsaterceiro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssegurosveiculoscadastro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsterceiros.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consAndares.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consbaixacracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Wait Until Element is Visible: 4
+
+- ./resource/app/resource_consescalacad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consgrupovisitantecorpcad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consoutraempresacad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_consrestrito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctrConsultaPresenca.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctrHistoricoCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 2
+    Switch Window: 1
+
+- ./resource/app/resource_ctrOrganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 3
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrWSG.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrabrangenciamensagem.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctratualizaescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 2
+
+- ./resource/app/resource_frmCentroCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmDevolveChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 4
+
+- ./resource/app/resource_frmEPICCustoCargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEPICargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEPICentroCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEmpresasCargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmFaixasHorariasRefeicao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmGrupoNotifica.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmMateriaisColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmOrganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmRetiraChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmTipoAlarmesTransito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmUtilizaGVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_tbColab_LocalAcess.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_tbhoraextra.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmagendausofrotapass.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 2
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmbloqueiocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmcargadescargasaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmepilocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmjornadatrabalho.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 4
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmlicenciamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmmarcaveiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_frmveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Input Text: 3
+    Wait Until Element is Visible: 2
+
+- ./resource/resource_popup.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 5
+    Wait Until Element is Visible: 5
+
+- ./resource/app/resource_abaAgendamentoFrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaInfracoesCadastro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaLoteComando.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaSolicitacaoSaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ababeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abaescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abamateriais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abamensagemacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_abasegurocadastro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsCadastroChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsCamerasGrupos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsColaboradorXMatrizAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsConsultaPresencaVisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsDesbloqueioLogin.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEPITermoCompromisso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEstruturaOrganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsFuncoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGrupoCamera.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGrupoUsuar.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGruposColetorescad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGuardaVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLotesComandos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMateriais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMotivoBloqueioPesquisacad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsPortariascad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsReacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSenhasAcessoColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTipoOcorrencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTiposVisitas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cns_log_aplicacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsacessorios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsacessorios_cap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsbeneficioscad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscoberturaseguro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscondutoresveiculosfrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnscorretor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsmodeloveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsmotivosusofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssituacaoveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssolicitacaosaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsusuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consElevadores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consLGPD.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consRefeitorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consTipodeContrato.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_horarioEscala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conshorario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consmotivopessoasnaogratacad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conspermissaoacessobusca.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conspessoasnaograta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consvisitantecorpcad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrCreditoAcessos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 1
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_ctr_monitoramento_acesso_filtro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrcreditosdeacessoservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrcreditosdeacessovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrdevedoresbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrpronturario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmCadastroChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmCadastroTorres.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmEstruturaCargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmFuncoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmGrupoCamera.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmGruposColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmGuardaVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmLayoutImportacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmLiberaGVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmMateriais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmReconhecimentoAlarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmSolicitacaoSaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmTratamentoAlarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmbaixaautorizacaoentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcorretor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmfaixaacessovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmfaixarefeitorio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmmotivoacessoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Click Element: 1
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmmotivopessoasnaograta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmnovasenha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmprecadastrocrachaporfaixa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 3
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmseguroveiculosfrotaxparcelas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 4
+    Input Text: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsAmbiente.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsColabGrupoHoraExtra.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsConsultasHistoricosCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEPICCustoCargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEPICargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEPICentroCusto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEPILocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsEstacionamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGrupoREP.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsGrupoRelat.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLayoutImportacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLocalPrestServi.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsModeloColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Wait Until Element is Visible: 3
+
+- ./resource/app/resource_cnsReport.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSinaisAlarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSituacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSituacoesAfastamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTipoAcessocad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsagendausofrotapass.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscadastroimprensacad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscondutoresveiculosfrotacap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsveiculoscompleto_cad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsveiculosmarca_cad.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consPesquisaTorres.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consbaixacrachaprov.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscrachavalidos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consoutraempresa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consplantaxcoletores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consprecadastrocracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consprocedimentoalarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelPerfilAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelpermissaodeservidores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelservidoresadmitidos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrComandosEmergencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrEscolherFaixaPorCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrEspelhoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrLerSmart.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrMarcacaoAcessoManual.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrMovimentacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrPreImpExpFotoVisit.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrTestarEmail.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Switch Window: 1
+
+- ./resource/app/resource_ctr_monitoramento_dispositivo_filtro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 1
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrtrocacracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 1
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmAprovacaoSaidaAgendada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_frmFaixaAcessUsuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmGrupoAprovacaoUsuariosVisita.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmImagemEquipamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_frmLocalPrestServi.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmLogotipoEmpresa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+    Element Should Be Visible: 1
+
+- ./resource/app/resource_frmLoteComandos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmLoteComandos_Comandos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmSaidaColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmTipodeContrato.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmTiposEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmTiposTerceiros.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmacessorios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmbaixacracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcameralarm.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Click Element: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcoberturaseguro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmferiado.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmhorario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmlistacoletoresgrupo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmmotivobloqueio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmmotivosusofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmprocedimentotratalarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmprogMensal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmsaidaimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 2
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmsituacaoveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 3
+    Input Text: 1
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsCadastroEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsColetoresPlanta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsGrupoEmailEPI.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsLiberacaoFaixaHoraria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMovimentacaoChaves.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMovimentacaoGVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMovimentacaoVisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsMovimentoGVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsProcessamentoLDC.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsRelatorioChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsRelatorioEPIColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsRelatorioEPIVisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsRelatorioGVolumes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsReportEmail.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSaidaVisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsSolicitanteAgendamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTipoUsuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTitularCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsTratamentoEventosTransito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsUsuarioAtivacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsUtilizacaoVeiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsWSGLog.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cns_monitoramento_dispositivo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsagendasaidafrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_cnsmotivoacessoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssaidafrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssaidaimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssaidasemretorno.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnssaldobeneficioscoletorestotais.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_cnsusuarioVisita.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsveiculofrota_cap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cnsveiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsvisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consAcessoVeiculoscracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consAprovacacaoVisitasSolicitadas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consColaboradoresporFilial.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consColaboradoresporVeiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consEntradaVisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consGrupoREP.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consHistoricoVeiculos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consIntegracaoTotvs.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consPerfilGrupos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_ColabAcessLinh.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_TiposEPi.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_contador_diario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_histoVeic.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_relat_comparativo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_relatoriAreaRestrita.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_tbContrLocalAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_cons_tbLocal_Acess.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consacessoaresttitular.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_consacessogrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consacessorest.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_consacessovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consacessovisitapessoanaograta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consagendamentogrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consclockinclockout.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_conscolaboradoracesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscolaboradorcentrocustoveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscolaboradorselecao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_conscrachavisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_conscreditoacessodevedores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consdesbloqueiocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consentradagrupo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_consmonitoraralarme.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consocorrencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelacessocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelacessovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelagendamentovisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelalarmesnaotratados.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelalarmestratados.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcadastrovisitantes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcargoservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelclockinclockout.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcodins.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcolaboradorporcargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcolaboradorporescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcolaboradorporlocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcoletores1.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcoletores2.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcontroledeservidores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelcrachaentregueprov.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consreldefinicoesdeacessoservidores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelescalaporrevesa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelfichacomplementarservidor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelgrupopermissoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelmarcacaoacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelorganograma.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consreloutrasempresas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelpessoasnaogratas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelportaria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_consrelsituacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrEnvioMensagem.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrFiltroMultiEmpresa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_ctrSelecionaGrupoCameras.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrSenhaAleatoria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrTermoConsentimentoPdf.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctr_monitoramento_camera_transito.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctr_monitoramento_equipamento_filtro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrconsumobeneficiosdetalhe.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrdefinicoescrachaprovisorios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrportariabaixa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrqrcode.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrrobohelp.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctrselecaocolbaixahistbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmAutorizacaoSaida.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmCamerasGrupos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmFavoritos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_frmFotoCaptura.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/app/resource_frmGrupoAbrangencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmLoginAtivacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmPesquisaTorres.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmRelatoriosAtivacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_tipoUsuario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcoletorbeneficio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_frmhistoricobeneficio.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Input Text: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmusuarioxportaria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 2
+
+- ./resource/app/resource_pdfHistoricoEPIColaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Wait Until Element is Visible: 1
+    Switch Window: 1
+
+- ./resource/common/resource_abas.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/common/resource_scn.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 2
+    Click Element: 1
+    Wait Until Element is Visible: 1
+
+- ./tests/AppTest/frmColetores/00003-246-249/FrmIncluirRegistro.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 2
+    Execute JavaScript: 1
+    Execute Javascript: 1
+
+- ./tests/AppTest/frmoutrasempresas/00009/testcase.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 2
+    Execute JavaScript: 1
+    Execute Javascript: 1
+
+- ./resource/app/resource_cnsColetores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsConsumoRestauranteResumo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsEmpresaLocal.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsEmpresasCargos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsFilialselecao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsLogSuriDetalhe.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsMateriais_cap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsMotivo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsMotivoBloqueioPesquisa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsMovimentacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsMovimentoChave.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsOutrasEmpresasPesquisa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsPermissoesAcessoGrupos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsPermissoesAcessoPesquisa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsPesquisaRegistro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsPessoasAmbiente.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsSecaoLayout.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsTipoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscamercftv.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscamercolet.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscorretor_cap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscrachaentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnscrachaveiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsdefinicoescrachaprecadastro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsdevedoresbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsmestre.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsmotivosusofrota_cap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsmultascap.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnspessoas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsprogramacaoescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsprogramacaohorario.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsprogramacaopermissao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsprogramacaoponte.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsprogramacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnssaldobeneficioscoletores.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnstabelas.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsveiculofrotadisponiveis.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cnsveiculoscompleto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consAplicacoes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consAtivarEmergencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consPesquisaCamposCustom.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cons_Cracha_veiculo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cons_itinerarios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_cons_tbContrLocalAcess.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_conscargo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consclockinclockoutexport.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_conscontratofrota.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_conscrachafun.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_conscrachagrupovisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consescala.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consgrupovisitantecorp.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consliberafaixahoraria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_conslocalparam.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consmeuacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consmotivopessoasnaograta.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_consreltipoacesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrAcessos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrConfConex.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrConfiguracaoLGPD.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrConfiguracoesCracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrEmergencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrEntradaVisitanteComCapFoto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrExpImpFoto.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrExpImpFotoVisit.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrFavoritosRecentes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrImportadorRelatorios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrListaEmpregadosREPErro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrMenusXDireitoAcesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrSmartCardActiveXPorFaixa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrSobre.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrUploadFirmware.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_escolhaopcao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_gerserv_monitor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_idiomaaplic.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_abertura_agencia.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_acesso.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_camera.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_cameras_filtro.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Switch Window: 1
+
+- ./resource/app/resource_ctr_monitoramento_disp_camera.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_dispositivo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_monitoramento_equipamento.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_rep_gruporep_coletivo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctr_securos_monitor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrautorizacaoacessoimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctravisocreditos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrenviodecomandos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrenviodelotes.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctropcoesentrada.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctropcoesentradagrupo.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_ctrretiradacoletivabeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmComandosEquipamentos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmMateriaisVisitante.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmReportColumn.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmTbPerfiGroup.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_log_aplicacao.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_log_aplicacao_campos.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_tbhoraextemail.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frm_tbhoraextsms.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmbaixacoletivahistbeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmbaixacrachaprov.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcadastrodecracha.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmcamercoletcftv.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmentradaimprensa.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmplantaxcoletor.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmretiradacoletivabeneficios.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_frmsaidaportaria.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./resource/app/resource_template.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 1
+    Wait Until Element is Visible: 1
+
+- ./tests/AppTest/frmEmpresas/00010-246/frmDeletarRegistro.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 1
+    Click Element: 1
+
+- ./tests/AppTest/frmOrganograma/00003-249/frmDeletarRegistros.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 1
+    Click Element: 1
+
+- ./tests/AppTest/frmcargos/00010-246/frmDeletarRegistros.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 1
+    Click Element: 1
+
+- ./tests/AppTest/frmestruturaorganograma/00002-249/frmDeletarRegistros.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 1
+    Click Element: 1
+
+- ./tests/AppTest/frmestruturaorganograma/00012-246/frmDeletarRegistros.robot
+  has_selenium_library: False
+  total_keyword_occurrences: 1
+    Click Element: 1
+
+- ./resource/app/resource_cnsveiculocolaborador.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 0
+
+- ./resource/common/resource_report.robot
+  has_selenium_library: True
+  total_keyword_occurrences: 0
+

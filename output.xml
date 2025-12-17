@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.11 on win32)" generated="20251216 12:39:35.532" rpa="false" schemaversion="3">
+<suite id="s1" name="Testcase" source="c:\Users\Danilo\RobotSuricato\RobotFramework\tests\AppTest\abaconsultaacesso\00001\testcase.robot">
+<test id="s1-t1" name="Testcase: Acessar Tela Consulta de Acesso (Filtro)" line="20">
+<kw name="Acessar Suricato" library="resource_login" type="SETUP">
+<kw name="Abrir navegador" library="resource_login">
+<kw name="Configurar Ambiente" library="settings">
+<arg>${OUTPUT_DIR}</arg>
+<status status="PASS" starttime="20251216 12:39:38.698" endtime="20251216 12:39:38.701"/>
+</kw>
+<kw name="Configurar Navegador" library="settings">
+<var>${SETTINGS}</var>
+<arg>${BROWSER}</arg>
+<arg>${MODE}</arg>
+<arg>${ISSUE}</arg>
+<msg timestamp="20251216 12:39:38.705" level="INFO">${SETTINGS} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002554011ED70&gt;</msg>
+<status status="PASS" starttime="20251216 12:39:38.703" endtime="20251216 12:39:38.714"/>
+</kw>
+<kw name="Register Keyword To Run On Failure" library="SeleniumLibrary">
+<arg>None</arg>
+<doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
+<msg timestamp="20251216 12:39:38.716" level="INFO">No keyword will be run on failure.</msg>
+<status status="PASS" starttime="20251216 12:39:38.715" endtime="20251216 12:39:38.717"/>
+</kw>
+<try>
+<branch type="TRY">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>options=${SETTINGS}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20251216 12:39:38.720" level="INFO">Opening browser 'CHROME' to base url 'https://172.16.14.246/suricato/app/logon/logon.php'.</msg>
+<msg timestamp="20251216 12:39:40.718" level="WARN">The chromedriver version (131.0.6778.69) detected in PATH at C:\Users\Danilo\AppData\Local\Programs\Python\Python310\Scripts\chromedriver.exe might not be compatible with the detected chrome version (143.0.7499.41); currently, chromedriver 143.0.7499.42 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20251216 12:39:46.840" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 131
+Current browser version is 143.0.7499.41 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CDFC2775+28773]
+	(No symbol) [0x00007FF7CDF2AFB0]
+	(No symbol) [0x00007FF7CDDC552A]
+	(No symbol) [0x00007FF7CDE07292]
+	(No symbol) [0x00007FF7CDE062FB]
+	(No symbol) [0x00007FF7CDE00617]
+	(No symbol) [0x00007FF7CDDFB869]
+	(No symbol) [0x00007FF7CDE4A2DC]
+	(No symbol) [0x00007FF7CDE498C0]
+	(No symbol) [0x00007FF7CDE3ED43]
+	(No symbol) [0x00007FF7CDE0A548]
+	(No symbol) [0x00007FF7CDE0B6B1]
+	GetHandleVerifier [0x00007FF7CE2EF45D+3358029]
+	GetHandleVerifier [0x00007FF7CE30430D+3443709]
+	GetHandleVerifier [0x00007FF7CE2F83FD+3394797]
+	GetHandleVerifier [0x00007FF7CE08929B+842635]
+	(No symbol) [0x00007FF7CDF3654F]
+	(No symbol) [0x00007FF7CDF31FA4]
+	(No symbol) [0x00007FF7CDF3213D]
+	(No symbol) [0x00007FF7CDF21629]
+	BaseThreadInitThunk [0x00007FF97B6E53E0+16]
+	RtlUserThreadStart [0x00007FF97C66485B+43]
+</msg>
+<status status="FAIL" starttime="20251216 12:39:38.718" endtime="20251216 12:39:46.873"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.876" endtime="20251216 12:39:46.877"/>
+</kw>
+<status status="FAIL" starttime="20251216 12:39:38.717" endtime="20251216 12:39:46.878"/>
+</branch>
+<branch type="EXCEPT">
+<kw name="Fail" library="BuiltIn">
+<arg>Falha ao executar o teste! Verifique se os webdrivers estão atualizados e o desempenho do computador.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<msg timestamp="20251216 12:39:46.882" level="FAIL">Falha ao executar o teste! Verifique se os webdrivers estão atualizados e o desempenho do computador.</msg>
+<status status="FAIL" starttime="20251216 12:39:46.880" endtime="20251216 12:39:46.893"/>
+</kw>
+<status status="FAIL" starttime="20251216 12:39:46.879" endtime="20251216 12:39:46.895"/>
+</branch>
+<status status="FAIL" starttime="20251216 12:39:38.717" endtime="20251216 12:39:46.896"/>
+</try>
+<status status="FAIL" starttime="20251216 12:39:38.697" endtime="20251216 12:39:46.900"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${TXT_USERNAME}</var>
+<arg>xpath=//*[@name="logiusua"] | //*[@name="login"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.902" endtime="20251216 12:39:46.903"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${TXT_PASSWORD}</var>
+<arg>xpath=//*[@name="senhusua"] | //*[@name="password"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.904" endtime="20251216 12:39:46.905"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${BTN_OK}</var>
+<arg>xpath=//*[@type="submit"] | //*[@text="Logon"] | //*[@alt="Submit"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.906" endtime="20251216 12:39:46.907"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${TXT_USERNAME}</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.909" endtime="20251216 12:39:46.912"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TXT_USERNAME}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.913" endtime="20251216 12:39:46.914"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${TXT_USERNAME}</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.916" endtime="20251216 12:39:46.917"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${TXT_PASSWORD}</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.920" endtime="20251216 12:39:46.921"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${TXT_PASSWORD}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.922" endtime="20251216 12:39:46.923"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${TXT_PASSWORD}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.924" endtime="20251216 12:39:46.925"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${BTN_OK}</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.925" endtime="20251216 12:39:46.927"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_OK}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20251216 12:39:46.928" endtime="20251216 12:39:46.931"/>
+</kw>
+<status status="FAIL" starttime="20251216 12:39:38.696" endtime="20251216 12:39:46.933"/>
+</kw>
+<kw name="Fechar navegador" library="resource_login" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20251216 12:39:46.941" endtime="20251216 12:39:46.942"/>
+</kw>
+<status status="PASS" starttime="20251216 12:39:46.939" endtime="20251216 12:39:46.943"/>
+</kw>
+<tag>POPULATED</tag>
+<status status="FAIL" starttime="20251216 12:39:38.694" endtime="20251216 12:39:46.947">Setup failed:
+Falha ao executar o teste! Verifique se os webdrivers estão atualizados e o desempenho do computador.</status>
+</test>
+<status status="FAIL" starttime="20251216 12:39:35.573" endtime="20251216 12:39:46.952"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">POPULATED</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testcase">Testcase</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20251216 12:39:40.718" level="WARN">The chromedriver version (131.0.6778.69) detected in PATH at C:\Users\Danilo\AppData\Local\Programs\Python\Python310\Scripts\chromedriver.exe might not be compatible with the detected chrome version (143.0.7499.41); currently, chromedriver 143.0.7499.42 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
